@@ -1,0 +1,38 @@
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .contact-image img {
+    width: 70%;
+    max-width: 400px;
+    height: auto;
+    /* border-radius: 8px; */
+    border-radius: 0 0 42% 42%;
+    border-style: dotted ;
+    border-width: 3px;
+    border-color: blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+  }
+  
+  .contact-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .contact-info h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
